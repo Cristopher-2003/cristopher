@@ -1,0 +1,57 @@
+.graphic{
+    position: relative;
+    display: grid;
+    padding-top: 3rem;
+    grid-template-columns: 1fr 75%;
+}
+.graphic-man{
+    width: 100%;
+    grid-column-start: 2;
+}
+.absolute{
+    position: absolute;
+}
+
+.graphic-go{
+    position: absolute;
+    width: 21%;
+    mix-blend-mode: screen;
+    top: 27%;
+    right: -2%;
+    transform: rotate(10deg);
+}
+
+.graphic-circles{
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.graphic-circles img{
+    top: 0%;
+    width: 80%;
+    height: 80%;
+    right: 15%;
+    mix-blend-mode: screen;
+}
+
+.graphic-energy{
+    animation: turn1 10s linear infinite;
+}
+.graphic-circle-2{
+    animation: turn1 26s linear infinite;
+
+}
+.graphic-circle-1{
+    animation: turn2 16s linear infinite;
+
+
+}
+@keyframes turn1{
+    to{
+        transform: rotate(1turn);
+    }
+}
+@keyframes turn2{
+    to{
+        transform: rotate(-1turn);
+    }
+}

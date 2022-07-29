@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Merriweather:ital,wght@0,400;0,900;1,400&family=Orbitron:wght@600&family=Plus+Jakarta+Sans:ital,wght@1,300&family=Poppins:wght@300;400;600;700&family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto:wght@500&family=Tiro+Telugu&display=swap');
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: Manrope, sans-serif;
+    line-height: 1.6;
+}
+.s-center{
+    text-align: center;
+}
+@media screen and (min-width:1024px){
+    .s-center{
+        text-align: left;
+    }
+    
+}
+.flex{
+    display: flex;
+}
